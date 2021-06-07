@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.5.25)  7 JUN 2021 10:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.5.25)  7 JUN 2021 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -603,11 +603,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
-
-(./Nofil's Resume.out) (./Nofil's Resume.out)
 \@outlinefile=\write3
 \openout3 = `"Nofil's Resume.out"'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 isodate: babel.sty has been loaded
 
@@ -742,12 +743,12 @@ Package rerunfilecheck Info: File `"Nofil's Resume".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 16955 strings out of 477220
- 300490 string characters out of 5832722
+ 16948 strings out of 477220
+ 300390 string characters out of 5832722
  837440 words of memory out of 5000000
- 36431 multiletter control sequences out of 15000+600000
+ 36428 multiletter control sequences out of 15000+600000
  404022 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 113i,5n,137p,288b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,5n,137p,288b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Nofil's Resume.pdf (1 page).

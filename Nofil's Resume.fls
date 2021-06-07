@@ -1,21 +1,21 @@
-PWD /mnt/c/Users/nofil/Desktop/Resume
+PWD /home/papadoxie/Code/Resume
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /mnt/c/Users/nofil/Desktop/Resume/Nofil's Resume.tex
-OUTPUT /mnt/c/Users/nofil/Desktop/Resume/Nofil's Resume.log
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
-INPUT /mnt/c/Users/nofil/Desktop/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/Nofil's Resume.tex
+OUTPUT /home/papadoxie/Code/Resume/Nofil's Resume.log
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
+INPUT /home/papadoxie/Code/Resume/resume.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls

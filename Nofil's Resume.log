@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.5.25)  8 JUN 2021 11:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.5.25)  16 JUN 2021 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -741,7 +741,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
 
 [1
 
-] (./Nofil's Resume.aux)
+] [2] (./Nofil's Resume.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -759,6 +759,6 @@ Here is how much of TeX's memory you used:
  36462 multiletter control sequences out of 15000+600000
  406656 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 113i,5n,137p,288b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,6n,137p,288b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Nofil's Resume.pdf (1 page).
+Output written on Nofil's Resume.pdf (2 pages).

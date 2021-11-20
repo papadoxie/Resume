@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2021.10.3)  24 OCT 2021 20:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2021.10.3)  21 NOV 2021 00:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -777,6 +777,6 @@ Here is how much of TeX's memory you used:
  36277 multiletter control sequences out of 15000+600000
  406656 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 113i,6n,137p,288b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,6n,137p,288b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Nofil's Resume.pdf (2 pages).

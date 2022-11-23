@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.21)  25 MAY 2022 19:43
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.21)  8 NOV 2022 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,29 +715,24 @@ t;+smcp;mapping=tex-text;"
 
 
 LaTeX Font Warning: Font shape `TU/Calibri(0)/b/n' undefined
-(Font)              using `TU/Calibri(0)/m/n' instead on input line 115.
+(Font)              using `TU/Calibri(0)/m/n' instead on input line 114.
 
 
 LaTeX Font Warning: Font shape `TU/CALIBRIB(0)/b/n' undefined
-(Font)              using `TU/CALIBRIB(0)/m/n' instead on input line 136.
+(Font)              using `TU/CALIBRIB(0)/m/n' instead on input line 134.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 151.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 150.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 151.
+(Font)              size <5> substituted on input line 150.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 151.
+(Font)              size <5> substituted on input line 150.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 151.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
-
- []
+(Font)              size <5> substituted on input line 150.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 220--222
@@ -760,7 +755,7 @@ Package rerunfilecheck Info: File `"Nofil's Resume".out' has not changed.
 Here is how much of TeX's memory you used:
  17669 strings out of 476156
  331356 string characters out of 5814963
- 807337 words of memory out of 5000000
+ 807499 words of memory out of 5000000
  38193 multiletter control sequences out of 15000+600000
  472485 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

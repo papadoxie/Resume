@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.18)  26 NOV 2022 23:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.18)  28 NOV 2022 00:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -630,24 +630,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./Nofil's CV.aux)
 Package rerunfilecheck Info: File `"Nofil's CV".out' has not changed.
-(rerunfilecheck)             Checksum: D7F7B8914B65B82B93A27C8F33520CCE;1079.
+(rerunfilecheck)             Checksum: 73CEEF2D425DC2433CA2D51C65758B66;1206.
  ) 
 Here is how much of TeX's memory you used:
- 12036 strings out of 478238
- 189113 string characters out of 5850455
- 522918 words of memory out of 5000000
- 30092 multiletter control sequences out of 15000+600000
+ 12038 strings out of 478238
+ 189133 string characters out of 5850455
+ 521918 words of memory out of 5000000
+ 30093 multiletter control sequences out of 15000+600000
  571740 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,65p,302b,615s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,65p,302b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/baskervillef/zba_uf5aa7.enc}</usr/shar
 e/texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Bold.pfb></usr/share/
 texmf-dist/fonts/type1/public/baskervillef/BaskervilleF-Regular.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on "Nofil's CV.pdf" (3 pages, 77985 bytes).
+Output written on "Nofil's CV.pdf" (3 pages, 79231 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

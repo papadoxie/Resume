@@ -1,7 +1,7 @@
 % Welcome to the simple Undergraduate Complexity Research CV-resume template!
 % Please delete any sections that do not apply to your past experiences. We do not expect that applicants will have itmes for all of the sections included here. You can also rename or revise sections to best fit with your personal accomplishments.
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -27,10 +27,13 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-\addtolength{\oddsidemargin}{0.0in}
+%\addtolength{\oddsidemargin}{0.0in}
+\addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{0.0in}
-\addtolength{\textwidth}{0.0in}
-\addtolength{\topmargin}{0.2in}
+%\addtolength{\textwidth}{0.0in}
+\addtolength{\textwidth}{1.2in}
+%\addtolength{\topmargin}{0.2in}
+\addtolength{\topmargin}{-0.4in}
 \addtolength{\textheight}{0.0in}
 
 
@@ -94,9 +97,11 @@
     {\LARGE Nofil Qasim} \\ \vspace{0pt}
     \begin{multicols}{2}
     \begin{flushleft}
-    \large{Lahore, 54782} \\
-    \large{Punjab, Pakistan} \\
-    \href{tel:+923028445808}{+92 302 8445808} \\
+    % \large{Lahore} \\
+    % \large{Punjab, Pakistan} \\
+    % \href{tel:+923028445808}{+92 302 8445808} \\
+    \large{Blog}: \href{https://papadoxie.github.io/Blog}{https://nofilqasim.info} \\
+    \large{Team}: \href{https://kernelcide.github.io/blog}{Kernelcide}
     \end{flushleft}
     
     \begin{flushright}
@@ -111,9 +116,9 @@
 
 %-----------RESEARCH INTERESTS-----------
 \section{Research Interests}
-My research interests lie in the intersection of computer security and low-level systems.
-I am interested in the security vulnerabilities posed by systems and language design flaws, and how they can be exploited.
-Examples of such vulnerabilities include Spectre, Meltdown and PACMAN, and, flaws in the WebAssembly specification which I am currently investigating.
+My interests lie in the intersection of computer security and low-level systems.
+I am interested in the security vulnerabilities posed by system design flaws and their implementations, and how they can be exploited.
+In the past I have worked on flaws in the WebAssembly language specification, written malware for Windows, researched Linux Kernel vulnerabilities and found vulnerabilities in ZTNA (Zero Trust Network Architecture) applications. Currently I am working on introducing novel mitigations against low-level security issues found in cloud environments.
 
 %-----------EDUCATION-----------
 % Please list your current institution first and then past schools in reverse chronology. No need for GPA, etc. You do not need to include high school but may do so if there are accomplishments you would like to highlight.
@@ -121,54 +126,20 @@ Examples of such vulnerabilities include Spectre, Meltdown and PACMAN, and, flaw
 \resumeSubHeadingListStart
 
     \resumeSubheading
-        {PUCIT - University of the Punjab}{September, 2019 -- Present}
+        {PUCIT - University of the Punjab}{September, 2019 -- July, 2023}
         {Bachelor of Science - Computer Science}{Lahore, Punjab, Pakistan}
-        \resumeItemListStart
-            \resumeItem{Expected graduation: July 2023}
-            \resumeItem{GPA: 3.54/4.0}
-        \resumeItemListEnd
+        % \resumeItemListStart
+        %     \resumeItem{GPA: 3.46/4.0}
+        % \resumeItemListEnd
 
-    \resumeSubheading
-        {Lahore Grammar School Johar Town}{2017 - 2019}
-        {A Level}{Lahore, Punjab, Pakistan}
-        \vspace*{1pt}    
+    % \resumeSubheading
+    %     {Lahore Grammar School Johar Town}{2017 - 2019}
+    %     {A Level}{Lahore, Punjab, Pakistan}
+    %     \vspace*{1pt}    
 
-    \resumeSubheading
-        {Aitchison College}{2007 - 2017}
-        {O Level}{Lahore, Punjab, Pakistan}
-
-\resumeSubHeadingListEnd
-
-
-%-----------RESEARCH EXPERIENCE-----------
-\section{Research Experience}
-% it is not expected that applicants have research experience but this section can include experience gained in a laboratory course, shadowing experiences, or group or independent research projects
-\resumeSubHeadingListStart
-
-\researchHeading
-        {A Novel Approach to Applying x86-64 Exploitation Techniques on WebAssembly Binaries}
-        {July, 2022 -- Present}
-        {PUCIT - University of the Punjab}
-        \resumeItemListStart
-            \small\resumeItem{Supervisor: Dr. Muhammad Arif Butt}
-            \resumeItem{Formulated the idea and initiated the research project}
-            \resumeItem{Discovered differences between WebAssembly Modules built from the same source}
-            \resumeItem{Worked on problems related to fuzzing WebAssembly binaries}
-            \resumeItem{Working on identifying ways to reuse x86-64 exploitation techniques on WebAssembly binaries}
-        \resumeItemListEnd
-
-\researchHeadingLong
-        {Salient Features of the MIPS32/64 Architecture and A Handy Guideline to its Assembly}
-        {Programming}
-        {November, 2022 -- Present}
-        {PUCIT - University of the Punjab}
-        \resumeItemListStart
-            \small\resumeItem{Supervisor: Dr. Muhammad Arif Butt}
-            \resumeItem{Verified the correctness of the research}
-            \resumeItem{Worked on journal formats}
-            \resumeItem{Prepared the paper for submission}
-            \resumeItem{Verified references}
-        \resumeItemListEnd
+    % \resumeSubheading
+    %     {Aitchison College}{2007 - 2017}
+    %     {O Level}{Lahore, Punjab, Pakistan}
 
 \resumeSubHeadingListEnd
 
@@ -176,27 +147,50 @@ Examples of such vulnerabilities include Spectre, Meltdown and PACMAN, and, flaw
 \section{Professional Experience}
 % if you have been employed, do volunteer activities, or have held other formal or informal jobs, you can list them here.   
 \resumeSubHeadingListStart
+    \resumeSubheading
+        {Senior Vulnerability Researcher}{July, 2024 -- Present}
+        {Ebryx F.Z.C.}{Ajman, United Arab Emirates (Remote)}
+        \resumeItemListStart
+            \small
+            \resumeItem{Identified and demonstrated prevalent low-level attack vectors against cloud environments}
+            \resumeItem{Formulated generic mitigation techniques to wipe out entire vulnerability classes at a low level}
+            \resumeItem{Performed detailed research on enabling compile time mitigations, such as SHSTK and IBT, on precompiled binaries}
+            \resumeItem{Designed alternatives to compile-time mitigations to be used at run-time}
+            \resumeItem{Wrote agents to block execution of unknown code, by using low-level signals to verify origin, across JITed languages like Lua}
+        \resumeItemListEnd  
 
     \resumeSubheading
-        {Malware Researcher}{November, 2021 -- Present}
+        {Vulnerability Researcher}{July, 2023 -- July, 2024}
         {Ebryx (Pvt.) Ltd.}{Lahore, Punjab, Pakistan}
         \resumeItemListStart
-            \small\resumeItem{Worked on Linux Usermode and Kernel Exploitation}
-            \resumeItem{Windows Kernel Exploit PoC Testing}
-            \resumeItem{Initial Access and Malware Deployment Techniques}
-            \resumeItem{AV and EDR Evasion Techniques}
-            \resumeItem{Red Team Capability Development (C2, Phishing, etc.)}
-            \resumeItem{Security Mechanism Bypassing Techniques (Applocker, etc.)}
+            \small
+            \resumeItem{Lead a team in performing security assessments on a ZTNA (Zero Trust Network Architecture) solution and found more than 20 0-days}
+            \resumeItem{Worked with a team to design architectural mitigations against those vulnerabilities}
+            \resumeItem{Set up workflows for fuzzing a wide range of open-source projects including tar, zlog and xz-utils}
+            \resumeItem{Set up a distributed environment for fuzzing the Linux Kernel on ESXi servers using syzkaller}
+            \resumeItem{Researched Linux usermode and kernel (n-day \& 1-day) exploits}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Malware Researcher}{November, 2021 -- July, 2023}
+        {Ebryx (Pvt.) Ltd.}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \small
+            \resumeItem{Worked with a team on a fully featured RAT (Remote Access Trojan)}
+            \resumeItem{Tested Windows (n-day) exploit PoCs for use in malware}
+            \resumeItem{Researched and implemented initial access and malware deployment techniques for deployment against medium sized organizations}
+            \resumeItem{Researched AV and EDR evasion techniques and successfully managed to evade major security products such as Crowdstrike EDR, Kaspersky AV, Windows Defender, etc.}
+            \resumeItem{Worked on bypassing security mechanisms such as Applocker, etc.}
         \resumeItemListEnd
 
     \resumeSubheading
         {Teaching Assistant (Operating Systems)}{February, 2022 -- October, 2022}
         {PUCIT - University of the Punjab}{Lahore, Punjab, Pakistan}
-        \resumeItemListStart
-            \small\resumeItem{Designed material and coursework for the newly introduced lab component of the subject}
-            \resumeItem{Designed exam papers for the lab}
-            \resumeItem{Assisted students in the lab + other TA responsibilities}
-          \resumeItemListEnd
+        \vspace{1em}
+        % \resumeItemListStart
+        %     \small\resumeItem{Designed material and coursework for the newly introduced lab component of the subject}
+        %     \resumeItem{Designed examination papers for the lab}
+        %   \resumeItemListEnd
 
     \resumeSubheading
         {Information Security Intern}{July, 2021 -- September, 2021}
@@ -211,9 +205,44 @@ Examples of such vulnerabilities include Spectre, Meltdown and PACMAN, and, flaw
     \resumeSubheading
         {Teaching Assistant (Computer Organization and Assembly)}{February, 2021 -- June, 2021}
         {PUCIT - University of the Punjab}{Lahore, Punjab, Pakistan}
+        \vspace{1em}
+        % \resumeItemListStart
+        %     \small\resumeItem{Redesigned lab material for the semester}
+        % \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+% it is not expected that applicants have research experience but this section can include experience gained in a laboratory course, shadowing experiences, or group or independent research projects
+\resumeSubHeadingListStart
+
+\researchHeading
+        {A Novel Approach to Applying x86-64 Exploitation Techniques on WebAssembly Binaries}
+        {July, 2022 -- July, 2023}
+        {PUCIT - University of the Punjab}
         \resumeItemListStart
-            \small\resumeItem{Redesigned lab material for the semester}
-            \resumeItem{Assisted students in the lab + other TA responsibilities}
+            \small
+            \resumeItem{Formulated the idea and initiated the research project}
+            \resumeItem{Discovered differences between WebAssembly Modules built from the same source}
+            \resumeItem{Worked on WebAssembly binary fuzzing and the problems associated with it}
+            \resumeItem{Working on identifying ways to reuse x86-64 exploitation techniques on WebAssembly binaries e.g. Return-to-libc, 
+            Return Oriented Programming (ROP) via WASM jump table overwrite, and, 
+            Heap Exploitation using Malloc Des-Maleficarum (House of Force, etc.) on emmalloc and dlmalloc
+            }
+        \resumeItemListEnd
+
+\researchHeadingLong
+        {Salient Features of the MIPS32/64 Architecture and A Handy Guideline to its Assembly}
+        {Programming}
+        {November, 2022 -- July, 2023}
+        {PUCIT - University of the Punjab}
+        \resumeItemListStart
+            \small
+            \resumeItem{Worked on verifying claims and hypothesis of my team members}
+            \resumeItem{Reviewed sources and references for correctness}
+            \resumeItem{Prepared the paper for submission}
         \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -233,107 +262,115 @@ Examples of such vulnerabilities include Spectre, Meltdown and PACMAN, and, flaw
 \resumeSubHeadingListStart
     
         \resumeSubheading
-            {WASM Research Documentation}{WebAssembly, C, Rust}
-            {\href{https://github.com/papadoxie/WASM-Research-Docs}{https://github.com/papadoxie/WASM-Research-Docs}}{}
+            {Python Debugger}{C, Python}
+            {\href{https://github.com/papadoxie/pydbg}{https://github.com/papadoxie/pydbg}}{}
             \resumeItemListStart
-                \small\resumeItem{A collection of research papers and documentation on WebAssembly}
-                \resumeItem{Includes a detailed account of my research on WebAssembly}
+                \small\resumeItem{A toy low-level debugger written in Python}
             \resumeItemListEnd
         
         \resumeSubheading
             {OS Development}{C, x86-64 Assembly}
             {\href{https://github.com/papadoxie/Operating-System}{https://github.com/papadoxie/Operating-System}}{}
             \resumeItemListStart
-                \small\resumeItem{A hobby Operating System with the design philosophy of supporting all major platforms}
+                \small\resumeItem{A hobby Operating System Kernal I work on in my spare time}
+                \resumeItem{Multiboot compliant}
+                \resumeItem{Custom linux-like kernel}
+                \resumeItem{Custom libkernel implementation}
             \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
 %-----------EXTRACURRICULARS & VOLUNTEERING-----------
-\section{Extracurriculars \& Volunteering} 
+\section{Volunteering} 
 % If you have been involved in extracurricular activities or volunteer work, you can list them here.
 \resumeSubHeadingListStart
     
-    \resumeSubheading
-        {Co-Founder}{PUCIT - University of the Punjab}
-        {Cyber@PU - Unofficial PUCIT Cyber Security Community}{2021}
-        \resumeItemListStart
-            \small\resumeItem{Faculty Contact: Dr. Muhammad Arif Butt}
-            \resumeItem{Organized a CTF team for the first time in PUCIT}
-            \resumeItem{Work with GDSC PUCIT to organize workshops and seminars}
-        \resumeItemListEnd    
+    % \resumeSubheading
+    %     {Co-Founder}{PUCIT - University of the Punjab}
+    %     {Cyber@PU - Unofficial PUCIT Cyber Security Community}{2021}
+    %     \vspace{2pt}
+        % \resumeItemListStart
+        %     \small\resumeItem{Faculty Contact: Dr. Muhammad Arif Butt}
+        %     \resumeItem{Organized a CTF team for the first time in PUCIT}
+        %     \resumeItem{Work with GDSC PUCIT to organize workshops and seminars}
+        % \resumeItemListEnd    
 
     \resumeSubheading
         {Cyber Security Lead}{PUCIT - University of the Punjab}
-        {Google Developer Student Clubs}{2020 -- 2021 \& 2022 -- Present}
-        \resumeItemListStart
-            \small\resumeItem{Conducted workshops on Cyber Security and low-level systems}
-            \resumeItem{E.g. Intro to Security, Deep Dive into C Programming, Memory Corruption and Buffer Overflows.}
-        \resumeItemListEnd    
+        {Google Developer Student Clubs}{2020 -- 2023}
+        \vspace{2pt}
+        % \resumeItemListStart
+        %     \small\resumeItem{Conducted workshops on Cyber Security and low-level systems}
+        %     \resumeItem{E.g. Intro to Security, Deep Dive into C Programming, Memory Corruption and Buffer Overflows.}
+        % \resumeItemListEnd    
     
     \resumeSubheading
-        {University Lead}{BSides International}
-        {BSides Pakistan}{2020 -- Present}
-        \resumeItemListStart
-            \small\resumeItem{Responsible for building a community of security enthusiasts at my University}
-        \resumeItemListEnd
+        {University Lead}{BSides Pakistan}
+        {}{2020 -- 2023}
+        \vspace{2pt}
+        % \resumeItemListStart
+        %     \small\resumeItem{Responsible for building a community of security enthusiasts at my University}
+        % \resumeItemListEnd
     
-    \resumeSubheading
-        {Mentor and Helper}{PUCIT - University of the Punjab}
-        {Helping Hands Society}{2020 -- Present}
-        \resumeItemListStart
-            \small\resumeItem{Helped students with their coursework and assignments}
-            \resumeItem{Mentored students in their projects}
-            \resumeItem{Helped students with core concepts of their subjects}
-        \resumeItemListEnd
+    % \resumeSubheading
+    %     {Mentor and Helper}{PUCIT - University of the Punjab}
+    %     {Helping Hands Society}{2020 -- Present}
+    %     \vspace{2pt}
+        % \resumeItemListStart
+        %     \small\resumeItem{Helped students with their coursework and assignments}
+        %     \resumeItem{Mentored students in their projects}
+        %     \resumeItem{Helped students with core concepts of their subjects}
+        % \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
-%-----------AWARDS & HONORS-----------
-\section{Awards \& Honors}
-% This section can include academic achievements – things like scholarships, Dean's list, honors societies – as well as recognition in your community - community service, religious study, volunteerism, military service, or anything else. You can remove or add sections as needed.
-\resumeSubHeadingListStart
+% %-----------AWARDS & HONORS-----------
+% \section{Awards \& Honors}
+% % This section can include academic achievements – things like scholarships, Dean's list, honors societies – as well as recognition in your community - community service, religious study, volunteerism, military service, or anything else. You can remove or add sections as needed.
+% \resumeSubHeadingListStart
 
-    \resumeSubheading
-        {First Prize}{2022}
-        {Bug Hunt - NaSCon FAST NUCES}{Islamabad, Pakistan}
-        \resumeItemListStart
-            \small\resumeItem{\href{https://pucit.edu.pk/achievements/\#:\~\:text\=development\%20first\%20position-\,Bug\%20hunt\%20first\%20position\,\-code\%20studio\%20second}{https://pucit.edu.pk/achievements/}}
-            \resumeItem{Awarded to the team with the most exploited and documented bugs in the competition}
-        \resumeItemListEnd
+%     \resumeSubheading
+%         {First Prize}{2022}
+%         {Bug Hunt - NaSCon FAST NUCES}{Islamabad, Pakistan}
+%         \vspace{2pt}
+%         % \resumeItemListStart
+%         %     \small\resumeItem{\href{https://pucit.edu.pk/achievements/\#:\~\:text\=development\%20first\%20position-\,Bug\%20hunt\%20first\%20position\,\-code\%20studio\%20second}{https://pucit.edu.pk/achievements/}}
+%         %     \resumeItem{Awarded to the team with the most exploited and documented bugs in the competition}
+%         % \resumeItemListEnd
 
-    \resumeSubheading
-        {First To Solve}{2021}
-        {International Collegiate Programming Contest (ICPC) Regionals}{Asia, Topi}
-        \resumeItemListStart
-            \small\resumeItem{\href{https://pucit.edu.pk/achievements-archives/}{https://pucit.edu.pk/achievements-archives/}}
-            \resumeItem{Awarded to the first team to solve a problem}
-        \resumeItemListEnd
+%     \resumeSubheading
+%         {First To Solve}{2021}
+%         {International Collegiate Programming Contest (ICPC) Regionals}{Asia, Topi}
+%         \vspace{2pt}
+%         % \resumeItemListStart
+%         %     \small\resumeItem{\href{https://pucit.edu.pk/achievements-archives/}{https://pucit.edu.pk/achievements-archives/}}
+%         %     \resumeItem{Awarded to the first team to solve a problem}
+%         % \resumeItemListEnd
 
-\resumeSubHeadingListEnd
+% \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------
 \section{Skills}
 % This section can include programming or spoken languages, text editing and general software knowledge, certifications, version control or project management tools, or other skills that might be relevant. You can include as many or as few as you like: delete or add as needed.  
 \begin{itemize}[leftmargin=0.15in, label={}]
     \normalsize{\item{
-     \textbf{Programming Languages}{: C, Python, Java, C\#, Rust, x86-64 Assembly, LaTeX} \\
+     \textbf{Programming Languages}{: C, Python, Java, C\#, x86-64 Assembly, LaTeX} \\
      \textbf{Security}{: Binary Exploitation, Reverse Engineering, Malware Development}\\
-     \textbf{Tools}{: Ghidra, Radare Cutter, GDB, GNU/Make} \\
+     \textbf{Tools}{: Ghidra, GDB, GNU/Make, Intel PIN, IDA Pro, FRIDA} \\
      \textbf{OS}{: GNU/Linux, Windows + WSL} \\
     }}
  \end{itemize}
 
 %-----------COURSES-----------
-\section{Courses \& MOOCs}
-% This section can include courses you have taken, or MOOCs you have completed. You can remove or add sections as needed.
-\begin{itemize}[leftmargin=0.15in, label={}]
-    \normalsize{\item{
-     \textbf{Malware Analysis}{: TryHackMe} \\
-     \textbf{Incident Response and Forensics}{: TryHackMe}\\
-     \textbf{Reverse Engineering 101}{: Malware Unicorn} \\
-     \textbf{Introduction to CyberSecurity Tools \& Cyber Attacks}{: IBM + Coursera} \\
-    }}
- \end{itemize}
+% \section{Courses \& MOOCs}
+% % This section can include courses you have taken, or MOOCs you have completed. You can remove or add sections as needed.
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%     \normalsize{\item{
+%      \textbf{Malware Analysis}{: TryHackMe} \\
+%      \textbf{Incident Response and Forensics}{: TryHackMe}\\
+%      \textbf{Reverse Engineering 101}{: Malware Unicorn} \\
+%      \textbf{Introduction to CyberSecurity Tools \& Cyber Attacks}{: IBM + Coursera} \\
+%     }}
+%  \end{itemize}
 
 \end{document}
